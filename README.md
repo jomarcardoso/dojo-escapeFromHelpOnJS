@@ -10,7 +10,7 @@
 
 - Qualquer um consegue aguentar ver um sublinhadinho vermelho.
 - Se desligar aquela regra vai deixar de sublinhar e normalmente ele sublinha por motivos bobos...
-- Qual a forma mais fácil de tirar esse sublinhado? Já que não me deixaram desligar a regra..
+- Qual a forma mais fácil de tirar esse sublinhado? Já que não me deixaram desligar a regra...
 
 ### Git Hooks
 
