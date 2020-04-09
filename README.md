@@ -11,6 +11,8 @@ Por experiência, e pela história que contei acima, não confie em ninguém, ne
 
 A fiscalização no nosso código pode ser feita manualmente ou com auxílio de ferramentase para amos a regra é a mesma, NÃO PARE DE FISCALIZAR. Não desligue a regra do linter porque uma parte da aplicação não vai usar ela. Você pode até estar sabendo o que está fazendo, mas o quem chegar no projeto vai fazer errado, não será avisado e vai achar que está certo, aí quero ver você convencer ele do contrário.
 
+Abaixo algumas "piadas" do que pode acontecer se a ficalização baixar a guarda.
+
 ### Quebrou o teste?
 
 - Tentar atualizar ele.
@@ -21,7 +23,10 @@ A fiscalização no nosso código pode ser feita manualmente ou com auxílio de 
 
 - Qualquer um consegue aguentar ver um sublinhadinho vermelho.
 - Se desligar aquela regra vai deixar de sublinhar e normalmente ele sublinha por motivos bobos...
-- Qual a forma mais fácil de tirar esse sublinhado? Já que não me deixaram desligar a regra...
+- Eu acho que essa regra não faz sentido.
+- Da para desligar a regra aqui nessa linha... Hm isso vai ser útil
+- Essa regra nessa parte do meu trabalho está atrapalhando, vou desligar
+- Qual a forma mais fácil de tirar esse sublinhado? Já que meus colegas chatos não me deixaram desligar a regra...
 
 ### Git Hooks
 
@@ -31,3 +36,4 @@ A fiscalização no nosso código pode ser feita manualmente ou com auxílio de 
 ### Prettier
 
 - Se ele não fizer o trabalho dele, não vai ser eu que vou.
+- Essa vírgula não vai mudar a vida de ninguém.
