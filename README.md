@@ -21,12 +21,23 @@ Abaixo algumas "piadas" do que pode acontecer se a ficalização baixar a guarda
 
 ### Linter incomodando?
 
-- Qualquer um consegue aguentar ver um sublinhadinho vermelho.
-- Se desligar aquela regra vai deixar de sublinhar e normalmente ele sublinha por motivos bobos...
-- Eu acho que essa regra não faz sentido.
-- Da para desligar a regra aqui nessa linha... Hm isso vai ser útil
-- Essa regra nessa parte do meu trabalho está atrapalhando, vou desligar
-- Qual a forma mais fácil de tirar esse sublinhado? Já que meus colegas chatos não me deixaram desligar a regra...
+Jornada do bem contra o mau
+
+- **mocinho** - vou colocar esse linter aqui, meus colegas vão ver que o código deles estão com erros e vão poder melhorar a escrita deles.
+- **vilão** - Qualquer um consegue aguentar ver um sublinhadinho vermelho.
+- **mocinho** - Mas que coisa, o contraste da tela do meu colega deve estar ruim e ele não viu o erro ali, ou talvez não botou a extensão que precisava, por garantia vou incluir isso no build aí se não escrever certo não ele vai perceber que não funcionou.
+- **vilão** - Que m#### é essa? Não bilda mais? Ah esse negócio de linter, para o que eu estou fazendo não tem sentido, vou desligar essas regras aqui.
+- **mocinho** - 😔 Oi colega, eu vi que você desligou várias regras do nosso linter, poderia saber por quê?
+- **vilão** - Eu vi que tava sublinhando por uns motivos bobos, que não tinha sentido no que eu estava desenvolvendo
+- **mocinho** - Mas o linter serve para todo o projeto, então se você desligar, afetará todos os outros.
+- **vilão** - Verdade, não farei mais.
+- **vilão** - Nossa, o linter ta pedindo para eu quebrar essa linha porque passa de 80 caracteres, mas vai ficar muito feio. Hmmm da para desligar o linter nessa linha aqui.
+- **mocinho** - 😠 Ah não, maldito, o que você está pensando ao desligar toda regra que ele não quer seguir?
+- **vilão** - Não vi sentido nelas
+- **mocinho** - 😤 mas isso é para nosso código ter um padrão e se essa regra está aí é porque tem um motivo
+- **vilão** - Ta, ta certo, entendi agora.
+- **vilão** - Qual a forma mais fácil de tirar esse sublinhado? Já que meus colegas chatos não me deixaram desligar a regra...
+- **mocinho** - 🥴
 
 ### Git Hooks
 
