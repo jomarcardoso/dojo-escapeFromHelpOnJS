@@ -15,11 +15,27 @@ Abaixo algumas "piadas" do que pode acontecer se a ficalização baixar a guarda
 
 ### Quebrou o teste?
 
-- Tentar atualizar ele.
-- Faz skip dele.
+Jornada do vilão
+
+- Tentar atualizar o teste para se adaptar ao novo código.
+- Botar para ignorar aquele teste para alguma hora resolvê-lo.
 - Remove ele de uma vez que não vai mais incomodar.
 
-### Linter incomodando?
+Jornada do mocinho
+
+- Cria uns testes e incentiva a galera.
+- Ninguém mais fez teste, porque:
+  - Não sabe como cria um teste.
+  - Não sabe como testa aquela parte da aplicação.
+  - Não acha que seja importante naquela parte do código
+- O mocinho investe em treinamentos.
+- O pessoal começa fazer testes, mas também começa a quebrar os testes dos outros.
+- O mocinho coloca um pre-commit validando os testes
+- Não sabe como, mas os testes ainda continuam quebrando (pessoal desliga os pre-commits)
+- Mocinho cria integração contínua validando os testes
+- Galera diz que isso está atrasando o deploy
+
+### Linter
 
 Jornada do bem contra o mau
 
