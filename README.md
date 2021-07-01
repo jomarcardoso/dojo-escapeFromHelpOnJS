@@ -21,7 +21,6 @@ Identificando de que lado você está:
 
 - se ninguém pedir vocês faz testes? (não - mal | sim - bom)
 - você se baseia na cobertura exigida ou em garantir que nenhum cenário ficou sem testar? (1 - mal | 2 - bom)
-- 
 
 Jornada do vilão
 
