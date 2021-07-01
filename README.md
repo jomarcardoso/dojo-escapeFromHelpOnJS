@@ -13,27 +13,35 @@ A fiscalização no nosso código pode ser feita manualmente ou com auxílio de 
 
 Abaixo algumas "piadas" do que pode acontecer se a ficalização baixar a guarda.
 
-### Quebrou o teste?
+## Testes unitários
+
+Ah os testes, "foram feitos para serem quebrados" (o mal em pessoa).
+
+Identificando de que lado você está:
+
+- se ninguém pedir vocês faz testes? (não - mal | sim - bom)
+- você se baseia na cobertura exigida ou em garantir que nenhum cenário ficou sem testar? (1 - mal | 2 - bom)
+- 
 
 Jornada do vilão
 
-- Tentar atualizar o teste para se adaptar ao novo código.
-- Botar para ignorar aquele teste para alguma hora resolvê-lo.
-- Remove ele de uma vez que não vai mais incomodar.
+1. Tentar atualizar o teste para se adaptar ao novo código.
+2. Botar para ignorar aquele teste para alguma hora resolvê-lo.
+3. Remove ele de uma vez que não vai mais incomodar.
 
 Jornada do mocinho
 
-- Cria uns testes e incentiva a galera.
-- Ninguém mais fez teste, porque:
+1. Cria uns testes e incentivar a galera.
+2. Ninguém mais fez teste, porque:
   - Não sabe como cria um teste.
   - Não sabe como testa aquela parte da aplicação.
   - Não acha que seja importante naquela parte do código
-- O mocinho investe em treinamentos.
-- O pessoal começa fazer testes, mas também começa a quebrar os testes dos outros.
-- O mocinho coloca um pre-commit validando os testes
-- Não sabe como, mas os testes ainda continuam quebrando (pessoal desliga os pre-commits)
-- Mocinho cria integração contínua validando os testes
-- Galera diz que isso está atrasando o deploy
+3. O mocinho investe em treinamentos.
+4. O pessoal começa fazer testes, mas também começa a quebrar os testes dos outros.
+5. O mocinho coloca um pre-commit validando os testes
+6. Não sabe como, mas os testes ainda continuam quebrando (pessoal desliga os pre-commits)
+7. Mocinho cria integração contínua validando os testes
+8. Galera diz que isso está atrasando o deploy
 
 ### Linter
 
@@ -44,7 +52,7 @@ Jornada do bem contra o mau
 - **mocinho** - Mas que coisa, o contraste da tela do meu colega deve estar ruim e ele não viu o erro ali, ou talvez não botou a extensão que precisava, por garantia vou incluir isso no build aí se não escrever certo não ele vai perceber que não funcionou.
 - **vilão** - Que m#### é essa? Não bilda mais? Ah esse negócio de linter, para o que eu estou fazendo não tem sentido, vou desligar essas regras aqui.
 - **mocinho** - 😔 Oi colega, eu vi que você desligou várias regras do nosso linter, poderia saber por quê?
-- **vilão** - Eu vi que tava sublinhando por uns motivos bobos, que não tinha sentido no que eu estava desenvolvendo
+- **vilão** - Eu vi que tava sublinhando por uns motivos bobos, que não tinha sentido no que eu estava desenvolvendo.
 - **mocinho** - Mas o linter serve para todo o projeto, então se você desligar, afetará todos os outros.
 - **vilão** - Verdade, não farei mais.
 - **vilão** - Nossa, o linter ta pedindo para eu quebrar essa linha porque passa de 80 caracteres, mas vai ficar muito feio. Hmmm da para desligar o linter nessa linha aqui.
@@ -57,10 +65,16 @@ Jornada do bem contra o mau
 
 ### Git Hooks
 
-- Eu sei que tem um negócio aqui que verifica o commit, mas dessa vez ele não rodou, melhor pra mim.
-- descobri o comando `git commit --no-verify` agora esse negócio não me pega mais.
+Jornada do vilão
+
+1. Eu sei que tem um negócio aqui que verifica o commit, mas dessa vez ele não rodou, melhor pra mim.
+2. descobri o comando `git commit --no-verify` agora esse negócio não me pega mais.
 
 ### Prettier
 
-- Se ele não fizer o trabalho dele, não vai ser eu que vou.
-- Essa vírgula não vai mudar a vida de ninguém.
+1. Se ele não fizer o trabalho dele, não vai ser eu que vou.
+2. Essa vírgula não vai mudar a vida de ninguém.
+
+## Escolha o seu lado
+
+As conversas e jornadas mostradas acima são exemplos extremos de conflitos que podem acontecer quando a ideias divergentes entre os membros de uma equipe. Já se questionou de que lado você está?
