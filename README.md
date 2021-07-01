@@ -43,7 +43,7 @@ Jornada do mocinho
 7. Mocinho cria integração contínua validando os testes
 8. Galera diz que isso está atrasando o deploy
 
-### Linter
+## Linter
 
 Jornada do bem contra o mau
 
@@ -63,14 +63,14 @@ Jornada do bem contra o mau
 - **vilão** - Qual a forma mais fácil de tirar esse sublinhado? Já que meus colegas chatos não me deixaram desligar a regra...
 - **mocinho** - 🥴
 
-### Git Hooks
+## Git Hooks
 
 Jornada do vilão
 
 1. Eu sei que tem um negócio aqui que verifica o commit, mas dessa vez ele não rodou, melhor pra mim.
 2. descobri o comando `git commit --no-verify` agora esse negócio não me pega mais.
 
-### Prettier
+## Prettier
 
 1. Se ele não fizer o trabalho dele, não vai ser eu que vou.
 2. Essa vírgula não vai mudar a vida de ninguém.
